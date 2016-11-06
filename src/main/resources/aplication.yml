@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: ${dario.environment:dev}
+  thymeleaf:
+    check-template-location: true
+    thymeleaf.prefix: /WEB-INF/views/
+    thymeleaf.suffix: .html
+    thymeleaf.mode: LEGACYHTML5
+    spring.thymeleaf.encoding: UTF-8
+    spring.thymeleaf.content-type: text/html
+    cache: false
