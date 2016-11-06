@@ -13,7 +13,7 @@ public class AppController {
     }
     @RequestMapping("/hello")
     String sayhello() {
-        //ajout com plus
+        //ajout com pluss
         return "hello toi";
     }
 }
